@@ -5,7 +5,11 @@ export function Home() {
   return (
     <div className={styles.container}>
       <Header />
-      <h1>Home</h1>
+
+      <div className={styles.wrapper}>
+        <aside>Sidebar</aside>
+        <main>Post</main>
+      </div>
     </div>
   )
 }
