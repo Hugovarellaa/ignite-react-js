@@ -10,6 +10,11 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
+        <img
+          src="https://github.com/Hugovarellaa.png"
+          alt=""
+          className={styles.avatar}
+        />
         <strong>Hugo Alves Varella</strong>
         <span>Web Development</span>
       </div>
