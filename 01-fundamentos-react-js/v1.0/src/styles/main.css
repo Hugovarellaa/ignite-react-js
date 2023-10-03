@@ -39,3 +39,21 @@ button {
   font-weight: 400;
   font-size: 1rem;
 }
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
